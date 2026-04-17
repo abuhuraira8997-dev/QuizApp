@@ -124,7 +124,7 @@ function questionElement(){
 
     var option = quizQuestions[counter].options
     for(var i =0;i<option.length;i++ ){
-            var li = `<li onclick = "answerCheck(this)">${option[i]}</li>`
+            var li = `<li class="options" onclick = "answerCheck(this)">${option[i]}</li>`
             options.innerHTML += li
     }
 }
